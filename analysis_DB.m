@@ -1,8 +1,8 @@
 %% Usefulness vs. Bias
 
 % Load data
-[header,data] = csvreadh(fullfile('~/proj/useful_vs_bias/useful_vs_bias.csv'));
-data = data(1:5,:);
+[header,data] = csvreadh(fullfile('C:\proj\useful_vs_bias\useful_vs_bias.csv'));
+% data = data(1:5,:);
 
 header = header(1:16);
 % Split into the three datasets
